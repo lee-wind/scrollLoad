@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.scroll-container{
+    transform: translate3d(0, -50px, 0);
+    padding-bottom: 50px;
+}
+.scroll-container .scroll-refresh{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.scroll-container .scroll-content .scroll-content-item{
+    height: 200px;
+}
+.scroll-container .scroll-content .scroll-content-item:nth-child(7n + 1){
+    background-color: red;
+}
+.scroll-container .scroll-content .scroll-content-item:nth-child(7n + 2){
+    background-color: orange;
+}
+.scroll-container .scroll-content .scroll-content-item:nth-child(7n + 3){
+    background-color: yellow;
+}
+.scroll-container .scroll-content .scroll-content-item:nth-child(7n + 4){
+    background-color: green;
+}
+.scroll-container .scroll-content .scroll-content-item:nth-child(7n + 5){
+    background-color: darkgreen;
+}
+.scroll-container .scroll-content .scroll-content-item:nth-child(7n + 6){
+    background-color: blue;
+}
+.scroll-container .scroll-content .scroll-content-item:nth-child(7n + 7){
+    background-color: purple;
+}
+.scroll-container .scroll-load{
+
+}
